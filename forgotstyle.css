@@ -1,0 +1,47 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box; font-family: "Poppins", sans-serif;}
+  body {
+    display: flex; justify-content: center;
+    background: url(image/loginback.jpg) no-repeat; background-size: cover;
+    align-items: center; height: 100vh;
+    background-position: center;
+  }
+  .forgot { padding: 20px; border-radius: 8px;
+    box-shadow: 0 0 10px rgba(134, 204, 229, 0.1);
+    width: 420px; backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .forgot h1 {
+    margin-bottom: 20px; text-align: center;
+  }
+  .input-box {
+    margin-bottom: 15px;
+  }
+  .input-box label {
+    display: block; margin-bottom: 5px; color: #0a0a0a;
+  }
+  .input-box input {
+    width: calc(100% - 10px); padding: 8px;
+    border-radius: 20px; border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8); color: #111;
+  }
+  .change-btn {
+    width: 70%; height: 45px;
+    padding: 10px; margin-top: 10px;
+    background-color: rgba(101, 179, 202, 0.711);
+    color: #111111; border: none;
+    border-radius: 20px; cursor: pointer;
+    transition:  0.3s; display: block; margin: 0 auto;
+    text-align: center; font-size: 18px; font-weight: bold;
+  }
+  .change-btn:hover {
+    text-decoration: underline;
+  }
+  .forgot a {
+    display: block; text-align: center;
+    margin-top: 10px; text-decoration-style: solid ;
+    color: #032f5e; font-weight: 600;
+  }
+  .forgot a:hover {
+    text-decoration: underline;}

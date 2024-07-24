@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif; background-color: #b0e0e6; 
+    margin: 0; padding: 20px;
+}table {
+    padding: 10px 15px; width: 90%; margin : 0 auto;
+    border-collapse: collapse; background-color: #fff; 
+    border-radius: 8px; overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); margin-bottom: 20px;
+}td {
+    padding:4px 10px;  text-align: center;
+    font-size: 14px; border: 1px solid #ddd;
+}th {
+    background-color: #3498db;  font-weight: bold;
+    font-size: 18px; padding:5px 10px;
+    color:  #333333 ;  border: 1px solid #ddd;
+    }
+table tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}table tr:hover {
+  background-color: #cce5ff; 
+}h2 {
+    margin-top: 5px; text-align: center; color: #333; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-size: 35px;
+  }.button-container {
+    text-align: right; margin-right: 80px; margin-bottom: 12px;
+}.dashboard-button {
+  display: inline-block; padding: 9px 10px; background-color: white;
+  font-size : 12px; text-align: center; text-decoration: none;
+  border: none; border-radius: 5px; cursor: pointer;
+}.dashboard-button:hover {
+  background-color: #d3eaf6; transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0); font-size: 13px;
+}body {
+    font-family: Arial, sans-serif; background-color: #b0e0e6; 
+    margin: 0; padding: 20px;
+}table { padding: 10px 15px;
+    width: 90%;margin : 0 auto; border-collapse: collapse;
+    background-color: #fff;  border-radius: 8px; 
+    overflow: hidden;  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  margin-bottom: 20px;
+}td {
+    padding:4px 10px;  text-align: center;
+    font-size: 14px; border: 1px solid #ddd;
+}th {
+    background-color: #3498db;  font-weight: bold;
+    font-size: 18px; padding:5px 10px; color:  #333333 ;  border: 1px solid #ddd;
+    }table tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}table tr:hover {
+  background-color: #cce5ff; 
+}h2 {
+    margin-top: 5px; text-align: center; color: #333; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-size: 35px;
+  }.button-container {
+    text-align: right; margin-right: 80px; margin-bottom: 12px;
+}.dashboard-button {
+  display: inline-block; padding: 9px 10px; background-color: white;
+  font-size : 12px; text-align: center; text-decoration: none;
+  border: none; border-radius: 5px; cursor: pointer;
+}.dashboard-button:hover {
+  background-color: #d3eaf6; transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0); font-size: 13px;
+}.logo img {
+    width: 5%;  height: 5%; float: inline-start; margin-left: 10px;
+}.dashboard-button:hover {
+  background-color: #d3eaf6; transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0); font-size: 13px;
+}

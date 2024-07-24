@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forgotstyle.css"> 
+    <link rel="shortcut icon" href="image\logo.jpeg" type="image/x-icon">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="forgot">
+        <form id="forgotform" method="post" action="forgotcode.php">
+            <h1>Recreate Password</h1>
+            <div class="input-box">
+                <label for="empid">Employee ID</label>
+                <input type="text" id="empid" name="empid" required>
+            </div>
+            <div class="input-box">
+                <label for="newpw">New Password</label>
+                <input type="text" id="newpw" name="newpw" required>
+            </div>
+            <div class="input-box">
+                <label for="confirmpw">Confirm Password</label>
+                <input type="password" id="confirmpw" name="confirmpw" required>
+            </div>
+            <button type="submit" class="change-btn" onclick="changePassword()">Change</button>
+            <a href="index.php">Back to Login</a>
+        </form>
+    </div>
+</body>
+</html>
